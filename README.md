@@ -4,7 +4,7 @@ This repository is presented, all versions of **PiFMPSRT**
 `demo` - is test assemblies, may work or not work.
 
 # Installation V1, V2, V3, V4
-**1.** In the terminal we write -> `git clone https://github.com/KOTYA8/PiFMPSRT/`  
+**1.** In the terminal we write -> `git clone https://github.com/KOTYA8/PiFMPSRT_VER/`  
 **2.** Next, select the version a version of PiFMPSRT (psrtv(ver)) and drag to the PiFmRds or PiFMX Directory (psrt.py).  
 **3.** Create in the directory PiFmRds or PiFMX -> `mkfifo rds_ctl`  
 **4.** In one console we run -> `sudo ./pi_fm_rds -ctl rds_ctl` or `sudo ./pi_fm_x -ctl rds_ctl`  
@@ -12,7 +12,7 @@ and in another console we run: `python3 psrtv(ver).py`
 **5.** After the PiFmRds or PiFMX -> `Change ps.txt and rt.txt directory`. Without closing the script, you can change PS and RT by saving a text file.
 
 # Installation V4.1, V5
-**1.** In the terminal we write -> `git clone https://github.com/KOTYA8/PiFMPSRT/`  
+**1.** In the terminal we write -> `git clone https://github.com/KOTYA8/PiFMPSRT_VER/`  
 **2.** Next, select the version a version of PiFMPSRT (psrtv(ver)) and drag to the PiFmRds or PiFMX Directory (psrt.py and pifmpsrt folder).  
 **3.** Create in the directory PiFmRds or PiFMX -> `mkfifo rds_ctl`  
 **4.** In one console we run -> `sudo ./pi_fm_rds -ctl rds_ctl` or `sudo ./pi_fm_x -ctl rds_ctl`  
