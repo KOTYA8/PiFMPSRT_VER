@@ -19,7 +19,6 @@ and in another console we run: `python3 psrtv(ver).py`
 and in another console we run: `python3 psrt.py`  
 **5.** After the PiFmRds or PiFMX -> pifmpsrt -> `Change ps.txt and rt.txt directory`. Without closing the script, you can change PS and RT by saving a text file. 
 
-
 # Version
 * **V1** - To change only in Python File (psrtv1.py)  
 * **V2** - You can in real time change PS and RT in files (ps.txt and rt.txt)  
