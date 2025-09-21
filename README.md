@@ -3,7 +3,7 @@ This repository is presented, all versions of **PiFMPSRT**
 
 # Installation V1, V2, V3, V4
 **1.** In the terminal we write -> `git clone https://github.com/KOTYA8/PiFMPSRT/`  
-**2.** Next, select the version a version of PiFMPSRT (psrtv(ver)) and drag to the PiFmRds or PiFMX Directory (psrt.py and pifmpsrt folder).  
+**2.** Next, select the version a version of PiFMPSRT (psrtv(ver)) and drag to the PiFmRds or PiFMX Directory (psrt.py).  
 **3.** Create in the directory PiFmRds -> `mkfifo rds_ctl`  
 **4.** In one console we run -> `sudo ./pi_fm_rds -ctl rds_ctl` or `sudo ./pi_fm_x -ctl rds_ctl` 
 and in another console we run: 
