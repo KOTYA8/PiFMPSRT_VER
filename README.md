@@ -1,6 +1,25 @@
 # PiFMPSRT_VER
 This repository is presented, all versions of **PiFMPSRT**
 
+# Installation V1, V2, V3, V4
+**1.** In the terminal we write -> `git clone https://github.com/KOTYA8/PiFMPSRT/`  
+**2.** Next, select the version a version of PiFMPSRT (psrtv(ver)) and drag to the PiFmRds or PiFMX Directory (psrt.py and pifmpsrt folder).  
+**3.** Create in the directory PiFmRds -> `mkfifo rds_ctl`  
+**4.** In one console we run -> `sudo ./pi_fm_rds -ctl rds_ctl` or `sudo ./pi_fm_x -ctl rds_ctl` 
+and in another console we run: 
+`python3 psrtv(ver).py` 
+**5.** After the PiFmRds or PiFMX -> `Change ps.txt and rt.txt directory`. Without closing the script, you can change PS and RT by saving a text file.
+
+# Installation V4.1, V5
+**1.** In the terminal we write -> `git clone https://github.com/KOTYA8/PiFMPSRT/`  
+**2.** Next, select the version a version of PiFMPSRT (psrtv(ver)) and drag to the PiFmRds or PiFMX Directory (psrt.py and pifmpsrt folder).  
+**3.** Create in the directory PiFmRds -> `mkfifo rds_ctl`  
+**4.** In one console we run -> `sudo ./pi_fm_rds -ctl rds_ctl` or `sudo ./pi_fm_x -ctl rds_ctl` 
+and in another console we run: 
+`python3 psrt.py`  
+**5.** After the PiFmRds or PiFMX -> pifmpsrt -> `Change ps.txt and rt.txt directory`. Without closing the script, you can change PS and RT by saving a text file.
+
+
 # Version
 * **V1** - To change only in Python File (psrtv1.py)  
 * **V2** - You can in real time change PS and RT in files (ps.txt and rt.txt)  
