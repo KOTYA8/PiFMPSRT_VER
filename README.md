@@ -1,7 +1,7 @@
 # PiFMPSRT_VER
 This repository is presented, all versions of **PiFMPSRT**
 
-`demo` - is test assemblies, may work or not work
+`demo` - is test assemblies, may work or not work.
 
 # Installation V1, V2, V3, V4
 **1.** In the terminal we write -> `git clone https://github.com/KOTYA8/PiFMPSRT/`  
